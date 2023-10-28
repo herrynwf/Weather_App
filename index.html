@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Weather App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>The Weather App</h1>
+    <p>Greetings and welcome to our innovative weather application.<br>Our platform allows you to input your preferred atmospheric conditions, upon which a corresponding GIF will be generated.</p>
+    <img id="welcomeGif" src="images/welcome.gif" alt="Welcome GIF">
+    <div class="button-container">
+        <button id="weatherButton">How's your weather?</button>
+        <dialog id="questionDialog">
+            <p>What is your favourite weather?</p>
+            <input type="text" id="weatherInput">
+            <button id="sendButton">Send</button>
+        </dialog>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
